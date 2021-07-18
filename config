@@ -199,9 +199,6 @@ bindsym $mod+l exec i3lock -i ~/Pictures/wallpaper.png
 bindsym XF86MonBrightnessUp exec xrandr --output eDP --brightness 1
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
-# Touchpad controls
-# bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
-
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
